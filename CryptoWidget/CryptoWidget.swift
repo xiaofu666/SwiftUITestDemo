@@ -25,7 +25,7 @@ struct Provider: IntentTimelineProvider {
         Task {
             if var cryptoData = try? await feachData() {
                 cryptoData.date = currentDate
-                let nextUpdate = Calendar.current.date(byAdding: .minute, value: 1, to: currentDate)!
+                let nextUpdate = Calendar.current.date(byAdding: .minute, value: 150, to: currentDate)!
                 let timeline = Timeline(entries: [cryptoData], policy: .after(nextUpdate))
                 completion(timeline)
             }

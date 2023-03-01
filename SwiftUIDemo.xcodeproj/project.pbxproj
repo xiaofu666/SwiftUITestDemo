@@ -17,6 +17,7 @@
 		E79A2EC829AE38D200916D7E /* CryptoWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E79A2EC329AE38D100916D7E /* CryptoWidget.intentdefinition */; };
 		E79A2ECB29AE38D200916D7E /* CryptoWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E79A2EB629AE38D100916D7E /* CryptoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E79A2ED129AE46F200916D7E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E79A2ED029AE46F200916D7E /* data.json */; };
+		E79A2ED429AF937100916D7E /* VerifyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A2ED329AF937100916D7E /* VerifyCode.swift */; };
 		E7B0123D29A1B877008947AF /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0123C29A1B877008947AF /* SwiftUIDemoApp.swift */; };
 		E7B0123F29A1B877008947AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0123E29A1B877008947AF /* ContentView.swift */; };
 		E7B0124129A1B878008947AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B0124029A1B878008947AF /* Assets.xcassets */; };
@@ -71,6 +72,7 @@
 		E79A2EC429AE38D200916D7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E79A2EC629AE38D200916D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E79A2ED029AE46F200916D7E /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		E79A2ED329AF937100916D7E /* VerifyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCode.swift; sourceTree = "<group>"; };
 		E7B0123929A1B877008947AF /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B0123C29A1B877008947AF /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		E7B0123E29A1B877008947AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -134,6 +136,14 @@
 			path = CryptoWidget;
 			sourceTree = "<group>";
 		};
+		E79A2ED229AF935300916D7E /* VerifyCode */ = {
+			isa = PBXGroup;
+			children = (
+				E79A2ED329AF937100916D7E /* VerifyCode.swift */,
+			);
+			path = VerifyCode;
+			sourceTree = "<group>";
+		};
 		E7B0123029A1B877008947AF = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +166,7 @@
 		E7B0123B29A1B877008947AF /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E79A2ED229AF935300916D7E /* VerifyCode */,
 				E7FC331929A7A49500EA19B7 /* TaskManager */,
 				E7FC331629A79F3C00EA19B7 /* ViewLoop */,
 				E7B0125929A20E25008947AF /* LikeAnimation */,
@@ -387,6 +398,7 @@
 				E7FC332129A7C29F00EA19B7 /* AddTaskView.swift in Sources */,
 				E7B0125429A1E2BD008947AF /* StackCardView.swift in Sources */,
 				E7FC331B29A7A4A700EA19B7 /* TaskManager.swift in Sources */,
+				E79A2ED429AF937100916D7E /* VerifyCode.swift in Sources */,
 				E7B0125F29A20E59008947AF /* YFHeartLike.swift in Sources */,
 				E7B0125829A1FC66008947AF /* ClockView.swift in Sources */,
 				E79A2EC829AE38D200916D7E /* CryptoWidget.intentdefinition in Sources */,
