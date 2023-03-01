@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E79A2EB929AE38D100916D7E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79A2EB829AE38D100916D7E /* WidgetKit.framework */; };
+		E79A2EBB29AE38D100916D7E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79A2EBA29AE38D100916D7E /* SwiftUI.framework */; };
+		E79A2EBE29AE38D100916D7E /* CryptoWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A2EBD29AE38D100916D7E /* CryptoWidgetBundle.swift */; };
+		E79A2EC029AE38D100916D7E /* CryptoWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A2EBF29AE38D100916D7E /* CryptoWidgetLiveActivity.swift */; };
+		E79A2EC229AE38D100916D7E /* CryptoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A2EC129AE38D100916D7E /* CryptoWidget.swift */; };
+		E79A2EC529AE38D200916D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79A2EC429AE38D200916D7E /* Assets.xcassets */; };
+		E79A2EC729AE38D200916D7E /* CryptoWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E79A2EC329AE38D100916D7E /* CryptoWidget.intentdefinition */; };
+		E79A2EC829AE38D200916D7E /* CryptoWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E79A2EC329AE38D100916D7E /* CryptoWidget.intentdefinition */; };
+		E79A2ECB29AE38D200916D7E /* CryptoWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E79A2EB629AE38D100916D7E /* CryptoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E79A2ED129AE46F200916D7E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E79A2ED029AE46F200916D7E /* data.json */; };
 		E7B0123D29A1B877008947AF /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0123C29A1B877008947AF /* SwiftUIDemoApp.swift */; };
 		E7B0123F29A1B877008947AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0123E29A1B877008947AF /* ContentView.swift */; };
 		E7B0124129A1B878008947AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B0124029A1B878008947AF /* Assets.xcassets */; };
@@ -26,7 +36,41 @@
 		E7FC332129A7C29F00EA19B7 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC332029A7C29F00EA19B7 /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E79A2EC929AE38D200916D7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7B0123129A1B877008947AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79A2EB529AE38D100916D7E;
+			remoteInfo = CryptoWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E79A2ECF29AE38D200916D7E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E79A2ECB29AE38D200916D7E /* CryptoWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E79A2EB629AE38D100916D7E /* CryptoWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CryptoWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79A2EB829AE38D100916D7E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E79A2EBA29AE38D100916D7E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E79A2EBD29AE38D100916D7E /* CryptoWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWidgetBundle.swift; sourceTree = "<group>"; };
+		E79A2EBF29AE38D100916D7E /* CryptoWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		E79A2EC129AE38D100916D7E /* CryptoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWidget.swift; sourceTree = "<group>"; };
+		E79A2EC329AE38D100916D7E /* CryptoWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = CryptoWidget.intentdefinition; sourceTree = "<group>"; };
+		E79A2EC429AE38D200916D7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E79A2EC629AE38D200916D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79A2ED029AE46F200916D7E /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		E7B0123929A1B877008947AF /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B0123C29A1B877008947AF /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		E7B0123E29A1B877008947AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +92,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E79A2EB329AE38D100916D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A2EBB29AE38D100916D7E /* SwiftUI.framework in Frameworks */,
+				E79A2EB929AE38D100916D7E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E7B0123629A1B877008947AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,10 +111,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E79A2EB729AE38D100916D7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E79A2EB829AE38D100916D7E /* WidgetKit.framework */,
+				E79A2EBA29AE38D100916D7E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E79A2EBC29AE38D100916D7E /* CryptoWidget */ = {
+			isa = PBXGroup;
+			children = (
+				E79A2EBD29AE38D100916D7E /* CryptoWidgetBundle.swift */,
+				E79A2EBF29AE38D100916D7E /* CryptoWidgetLiveActivity.swift */,
+				E79A2EC129AE38D100916D7E /* CryptoWidget.swift */,
+				E79A2ED029AE46F200916D7E /* data.json */,
+				E79A2EC329AE38D100916D7E /* CryptoWidget.intentdefinition */,
+				E79A2EC429AE38D200916D7E /* Assets.xcassets */,
+				E79A2EC629AE38D200916D7E /* Info.plist */,
+			);
+			path = CryptoWidget;
+			sourceTree = "<group>";
+		};
 		E7B0123029A1B877008947AF = {
 			isa = PBXGroup;
 			children = (
 				E7B0123B29A1B877008947AF /* SwiftUIDemo */,
+				E79A2EBC29AE38D100916D7E /* CryptoWidget */,
+				E79A2EB729AE38D100916D7E /* Frameworks */,
 				E7B0123A29A1B877008947AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				E7B0123929A1B877008947AF /* SwiftUIDemo.app */,
+				E79A2EB629AE38D100916D7E /* CryptoWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,6 +268,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E79A2EB529AE38D100916D7E /* CryptoWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79A2ECC29AE38D200916D7E /* Build configuration list for PBXNativeTarget "CryptoWidgetExtension" */;
+			buildPhases = (
+				E79A2EB229AE38D100916D7E /* Sources */,
+				E79A2EB329AE38D100916D7E /* Frameworks */,
+				E79A2EB429AE38D100916D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoWidgetExtension;
+			productName = CryptoWidgetExtension;
+			productReference = E79A2EB629AE38D100916D7E /* CryptoWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		E7B0123829A1B877008947AF /* SwiftUIDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7B0124729A1B878008947AF /* Build configuration list for PBXNativeTarget "SwiftUIDemo" */;
@@ -196,10 +292,12 @@
 				E7B0123529A1B877008947AF /* Sources */,
 				E7B0123629A1B877008947AF /* Frameworks */,
 				E7B0123729A1B877008947AF /* Resources */,
+				E79A2ECF29AE38D200916D7E /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E79A2ECA29AE38D200916D7E /* PBXTargetDependency */,
 			);
 			name = SwiftUIDemo;
 			productName = SwiftUIDemo;
@@ -216,6 +314,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					E79A2EB529AE38D100916D7E = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					E7B0123829A1B877008947AF = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -235,11 +336,21 @@
 			projectRoot = "";
 			targets = (
 				E7B0123829A1B877008947AF /* SwiftUIDemo */,
+				E79A2EB529AE38D100916D7E /* CryptoWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E79A2EB429AE38D100916D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A2EC529AE38D200916D7E /* Assets.xcassets in Resources */,
+				E79A2ED129AE46F200916D7E /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E7B0123729A1B877008947AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,6 +363,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E79A2EB229AE38D100916D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A2EBE29AE38D100916D7E /* CryptoWidgetBundle.swift in Sources */,
+				E79A2EC229AE38D100916D7E /* CryptoWidget.swift in Sources */,
+				E79A2EC029AE38D100916D7E /* CryptoWidgetLiveActivity.swift in Sources */,
+				E79A2EC729AE38D200916D7E /* CryptoWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E7B0123529A1B877008947AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,6 +389,7 @@
 				E7FC331B29A7A4A700EA19B7 /* TaskManager.swift in Sources */,
 				E7B0125F29A20E59008947AF /* YFHeartLike.swift in Sources */,
 				E7B0125829A1FC66008947AF /* ClockView.swift in Sources */,
+				E79A2EC829AE38D200916D7E /* CryptoWidget.intentdefinition in Sources */,
 				E7B0125229A1E073008947AF /* HomeViewModel.swift in Sources */,
 				E7B0123D29A1B877008947AF /* SwiftUIDemoApp.swift in Sources */,
 				E7FC331F29A7B68C00EA19B7 /* Task.swift in Sources */,
@@ -276,7 +399,69 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E79A2ECA29AE38D200916D7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79A2EB529AE38D100916D7E /* CryptoWidgetExtension */;
+			targetProxy = E79A2EC929AE38D200916D7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		E79A2ECD29AE38D200916D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWDK5F6KU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.lurich.SwiftUIDemo.CryptoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E79A2ECE29AE38D200916D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWDK5F6KU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.lurich.SwiftUIDemo.CryptoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		E7B0124529A1B878008947AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -394,6 +579,7 @@
 		E7B0124829A1B878008947AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -407,6 +593,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -414,6 +601,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = con.lurich.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -423,6 +613,7 @@
 		E7B0124929A1B878008947AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,6 +627,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,6 +635,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = con.lurich.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,6 +647,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E79A2ECC29AE38D200916D7E /* Build configuration list for PBXNativeTarget "CryptoWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79A2ECD29AE38D200916D7E /* Debug */,
+				E79A2ECE29AE38D200916D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E7B0123429A1B877008947AF /* Build configuration list for PBXProject "SwiftUIDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
