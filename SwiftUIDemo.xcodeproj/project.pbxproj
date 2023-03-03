@@ -21,6 +21,7 @@
 		E79A2ED729B0E47B00916D7E /* TopTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A2ED629B0E47B00916D7E /* TopTab.swift */; };
 		E79A2ED929B0E48F00916D7E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A2ED829B0E48F00916D7E /* DetailView.swift */; };
 		E79A2EDC29B0F36800916D7E /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A2EDB29B0F36800916D7E /* DropDownView.swift */; };
+		E79A2EDF29B2436C00916D7E /* RollingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A2EDE29B2436C00916D7E /* RollingText.swift */; };
 		E7B0123D29A1B877008947AF /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0123C29A1B877008947AF /* SwiftUIDemoApp.swift */; };
 		E7B0123F29A1B877008947AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0123E29A1B877008947AF /* ContentView.swift */; };
 		E7B0124129A1B878008947AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B0124029A1B878008947AF /* Assets.xcassets */; };
@@ -79,6 +80,7 @@
 		E79A2ED629B0E47B00916D7E /* TopTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTab.swift; sourceTree = "<group>"; };
 		E79A2ED829B0E48F00916D7E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		E79A2EDB29B0F36800916D7E /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		E79A2EDE29B2436C00916D7E /* RollingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingText.swift; sourceTree = "<group>"; };
 		E7B0123929A1B877008947AF /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B0123C29A1B877008947AF /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		E7B0123E29A1B877008947AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -167,6 +169,14 @@
 			path = "下拉选择框";
 			sourceTree = "<group>";
 		};
+		E79A2EDD29B2432600916D7E /* 滚动数字 */ = {
+			isa = PBXGroup;
+			children = (
+				E79A2EDE29B2436C00916D7E /* RollingText.swift */,
+			);
+			path = "滚动数字";
+			sourceTree = "<group>";
+		};
 		E7B0123029A1B877008947AF = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +199,7 @@
 		E7B0123B29A1B877008947AF /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E79A2EDD29B2432600916D7E /* 滚动数字 */,
 				E79A2EDA29B0F34000916D7E /* 下拉选择框 */,
 				E79A2ED529B0E3AD00916D7E /* 3D分段选择器 */,
 				E79A2ED229AF935300916D7E /* VerifyCode */,
@@ -425,6 +436,7 @@
 				E7FC332129A7C29F00EA19B7 /* AddTaskView.swift in Sources */,
 				E7B0125429A1E2BD008947AF /* StackCardView.swift in Sources */,
 				E7FC331B29A7A4A700EA19B7 /* TaskManager.swift in Sources */,
+				E79A2EDF29B2436C00916D7E /* RollingText.swift in Sources */,
 				E79A2ED429AF937100916D7E /* VerifyCode.swift in Sources */,
 				E7B0125F29A20E59008947AF /* YFHeartLike.swift in Sources */,
 				E7B0125829A1FC66008947AF /* ClockView.swift in Sources */,
