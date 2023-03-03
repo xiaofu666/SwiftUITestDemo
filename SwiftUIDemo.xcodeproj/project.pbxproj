@@ -18,6 +18,9 @@
 		E79A2ECB29AE38D200916D7E /* CryptoWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E79A2EB629AE38D100916D7E /* CryptoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E79A2ED129AE46F200916D7E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E79A2ED029AE46F200916D7E /* data.json */; };
 		E79A2ED429AF937100916D7E /* VerifyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A2ED329AF937100916D7E /* VerifyCode.swift */; };
+		E79A2ED729B0E47B00916D7E /* TopTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A2ED629B0E47B00916D7E /* TopTab.swift */; };
+		E79A2ED929B0E48F00916D7E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A2ED829B0E48F00916D7E /* DetailView.swift */; };
+		E79A2EDC29B0F36800916D7E /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A2EDB29B0F36800916D7E /* DropDownView.swift */; };
 		E7B0123D29A1B877008947AF /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0123C29A1B877008947AF /* SwiftUIDemoApp.swift */; };
 		E7B0123F29A1B877008947AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0123E29A1B877008947AF /* ContentView.swift */; };
 		E7B0124129A1B878008947AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B0124029A1B878008947AF /* Assets.xcassets */; };
@@ -73,6 +76,9 @@
 		E79A2EC629AE38D200916D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E79A2ED029AE46F200916D7E /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		E79A2ED329AF937100916D7E /* VerifyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCode.swift; sourceTree = "<group>"; };
+		E79A2ED629B0E47B00916D7E /* TopTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTab.swift; sourceTree = "<group>"; };
+		E79A2ED829B0E48F00916D7E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E79A2EDB29B0F36800916D7E /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
 		E7B0123929A1B877008947AF /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B0123C29A1B877008947AF /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		E7B0123E29A1B877008947AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -144,6 +150,23 @@
 			path = VerifyCode;
 			sourceTree = "<group>";
 		};
+		E79A2ED529B0E3AD00916D7E /* 3D分段选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				E79A2ED629B0E47B00916D7E /* TopTab.swift */,
+				E79A2ED829B0E48F00916D7E /* DetailView.swift */,
+			);
+			path = "3D分段选择器";
+			sourceTree = "<group>";
+		};
+		E79A2EDA29B0F34000916D7E /* 下拉选择框 */ = {
+			isa = PBXGroup;
+			children = (
+				E79A2EDB29B0F36800916D7E /* DropDownView.swift */,
+			);
+			path = "下拉选择框";
+			sourceTree = "<group>";
+		};
 		E7B0123029A1B877008947AF = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +189,8 @@
 		E7B0123B29A1B877008947AF /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E79A2EDA29B0F34000916D7E /* 下拉选择框 */,
+				E79A2ED529B0E3AD00916D7E /* 3D分段选择器 */,
 				E79A2ED229AF935300916D7E /* VerifyCode */,
 				E7FC331929A7A49500EA19B7 /* TaskManager */,
 				E7FC331629A79F3C00EA19B7 /* ViewLoop */,
@@ -390,8 +415,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7FC331829A79F5400EA19B7 /* ViewLoop.swift in Sources */,
+				E79A2EDC29B0F36800916D7E /* DropDownView.swift in Sources */,
 				E7B0125029A1DF85008947AF /* User.swift in Sources */,
 				E7B0126029A20E59008947AF /* LikeHome.swift in Sources */,
+				E79A2ED729B0E47B00916D7E /* TopTab.swift in Sources */,
 				E7B0123F29A1B877008947AF /* ContentView.swift in Sources */,
 				E7FC331D29A7A77B00EA19B7 /* Ubuntu.swift in Sources */,
 				E7B0124E29A1C0D5008947AF /* TinderCard.swift in Sources */,
@@ -404,6 +431,7 @@
 				E79A2EC829AE38D200916D7E /* CryptoWidget.intentdefinition in Sources */,
 				E7B0125229A1E073008947AF /* HomeViewModel.swift in Sources */,
 				E7B0123D29A1B877008947AF /* SwiftUIDemoApp.swift in Sources */,
+				E79A2ED929B0E48F00916D7E /* DetailView.swift in Sources */,
 				E7FC331F29A7B68C00EA19B7 /* Task.swift in Sources */,
 				E7B0126129A20E59008947AF /* Post.swift in Sources */,
 			);
