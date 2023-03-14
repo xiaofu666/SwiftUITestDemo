@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E700E4C129BC3154005ABA07 /* PayListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E700E4C029BC3154005ABA07 /* PayListView.swift */; };
+		E756412C29BC517B001AD73F /* SearchNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756412B29BC517B001AD73F /* SearchNavView.swift */; };
+		E756412F29BCA424001AD73F /* Carousel3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756412E29BCA424001AD73F /* Carousel3D.swift */; };
+		E756413229BD68C3001AD73F /* OrderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756413129BD68C3001AD73F /* OrderAttributes.swift */; };
+		E756413329BD68C3001AD73F /* OrderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756413129BD68C3001AD73F /* OrderAttributes.swift */; };
+		E756413529BD71DB001AD73F /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756413429BD71DB001AD73F /* WidgetView.swift */; };
+		E756413929BF59BE001AD73F /* MapBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756413829BF59BE001AD73F /* MapBottomSheetView.swift */; };
+		E756413B29BF59E2001AD73F /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756413A29BF59E2001AD73F /* AlbumModel.swift */; };
+		E756413E29BF6D8B001AD73F /* BallAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756413D29BF6D8B001AD73F /* BallAnimationView.swift */; };
+		E756414329C0B04E001AD73F /* BookHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756414029C0B04E001AD73F /* BookHomeView.swift */; };
+		E756414429C0B04E001AD73F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756414129C0B04E001AD73F /* Book.swift */; };
+		E756414529C0B04E001AD73F /* IsometricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756414229C0B04E001AD73F /* IsometricView.swift */; };
+		E756414929C0B242001AD73F /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756414729C0B242001AD73F /* IntroView.swift */; };
+		E756414A29C0B242001AD73F /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756414829C0B242001AD73F /* Intro.swift */; };
+		E756414E29C0B47D001AD73F /* SwipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756414C29C0B47D001AD73F /* SwipeCardView.swift */; };
+		E756414F29C0B47D001AD73F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756414D29C0B47D001AD73F /* Message.swift */; };
 		E79A2EB929AE38D100916D7E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79A2EB829AE38D100916D7E /* WidgetKit.framework */; };
 		E79A2EBB29AE38D100916D7E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79A2EBA29AE38D100916D7E /* SwiftUI.framework */; };
 		E79A2EBE29AE38D100916D7E /* CryptoWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A2EBD29AE38D100916D7E /* CryptoWidgetBundle.swift */; };
@@ -37,7 +53,6 @@
 		E7FC331829A79F5400EA19B7 /* ViewLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC331729A79F5400EA19B7 /* ViewLoop.swift */; };
 		E7FC331B29A7A4A700EA19B7 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC331A29A7A4A700EA19B7 /* TaskManager.swift */; };
 		E7FC331D29A7A77B00EA19B7 /* Ubuntu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC331C29A7A77B00EA19B7 /* Ubuntu.swift */; };
-		E7FC331F29A7B68C00EA19B7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC331E29A7B68C00EA19B7 /* Task.swift */; };
 		E7FC332129A7C29F00EA19B7 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC332029A7C29F00EA19B7 /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +81,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E700E4C029BC3154005ABA07 /* PayListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayListView.swift; sourceTree = "<group>"; };
+		E756412B29BC517B001AD73F /* SearchNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNavView.swift; sourceTree = "<group>"; };
+		E756412E29BCA424001AD73F /* Carousel3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel3D.swift; sourceTree = "<group>"; };
+		E756413129BD68C3001AD73F /* OrderAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderAttributes.swift; sourceTree = "<group>"; };
+		E756413429BD71DB001AD73F /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
+		E756413629BD7489001AD73F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E756413829BF59BE001AD73F /* MapBottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBottomSheetView.swift; sourceTree = "<group>"; };
+		E756413A29BF59E2001AD73F /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		E756413D29BF6D8B001AD73F /* BallAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallAnimationView.swift; sourceTree = "<group>"; };
+		E756414029C0B04E001AD73F /* BookHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookHomeView.swift; sourceTree = "<group>"; };
+		E756414129C0B04E001AD73F /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		E756414229C0B04E001AD73F /* IsometricView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsometricView.swift; sourceTree = "<group>"; };
+		E756414729C0B242001AD73F /* IntroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		E756414829C0B242001AD73F /* Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		E756414C29C0B47D001AD73F /* SwipeCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardView.swift; sourceTree = "<group>"; };
+		E756414D29C0B47D001AD73F /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		E79A2EB629AE38D100916D7E /* CryptoWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CryptoWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79A2EB829AE38D100916D7E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		E79A2EBA29AE38D100916D7E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -97,7 +128,6 @@
 		E7FC331729A79F5400EA19B7 /* ViewLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoop.swift; sourceTree = "<group>"; };
 		E7FC331A29A7A4A700EA19B7 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		E7FC331C29A7A77B00EA19B7 /* Ubuntu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ubuntu.swift; sourceTree = "<group>"; };
-		E7FC331E29A7B68C00EA19B7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		E7FC332029A7C29F00EA19B7 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +151,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E700E4BF29BC2B97005ABA07 /* 可折叠头部 */ = {
+			isa = PBXGroup;
+			children = (
+				E700E4C029BC3154005ABA07 /* PayListView.swift */,
+			);
+			path = "可折叠头部";
+			sourceTree = "<group>";
+		};
+		E756412A29BC5151001AD73F /* 顶部搜索栏菜单动画 */ = {
+			isa = PBXGroup;
+			children = (
+				E756412B29BC517B001AD73F /* SearchNavView.swift */,
+			);
+			path = "顶部搜索栏菜单动画";
+			sourceTree = "<group>";
+		};
+		E756412D29BCA3F2001AD73F /* 3D轮播图 */ = {
+			isa = PBXGroup;
+			children = (
+				E756412E29BCA424001AD73F /* Carousel3D.swift */,
+			);
+			path = "3D轮播图";
+			sourceTree = "<group>";
+		};
+		E756413029BD617B001AD73F /* 灵动岛 */ = {
+			isa = PBXGroup;
+			children = (
+				E756413129BD68C3001AD73F /* OrderAttributes.swift */,
+				E756413429BD71DB001AD73F /* WidgetView.swift */,
+			);
+			path = "灵动岛";
+			sourceTree = "<group>";
+		};
+		E756413729BF5960001AD73F /* 可滑动弹框 */ = {
+			isa = PBXGroup;
+			children = (
+				E756413829BF59BE001AD73F /* MapBottomSheetView.swift */,
+				E756413A29BF59E2001AD73F /* AlbumModel.swift */,
+			);
+			path = "可滑动弹框";
+			sourceTree = "<group>";
+		};
+		E756413C29BF6D3A001AD73F /* 液态动画 */ = {
+			isa = PBXGroup;
+			children = (
+				E756413D29BF6D8B001AD73F /* BallAnimationView.swift */,
+			);
+			path = "液态动画";
+			sourceTree = "<group>";
+		};
+		E756413F29C0B016001AD73F /* 书本动画 */ = {
+			isa = PBXGroup;
+			children = (
+				E756414129C0B04E001AD73F /* Book.swift */,
+				E756414029C0B04E001AD73F /* BookHomeView.swift */,
+				E756414229C0B04E001AD73F /* IsometricView.swift */,
+			);
+			path = "书本动画";
+			sourceTree = "<group>";
+		};
+		E756414629C0B21A001AD73F /* 流程页动画 */ = {
+			isa = PBXGroup;
+			children = (
+				E756414829C0B242001AD73F /* Intro.swift */,
+				E756414729C0B242001AD73F /* IntroView.swift */,
+			);
+			path = "流程页动画";
+			sourceTree = "<group>";
+		};
+		E756414B29C0B453001AD73F /* 折叠卡片翻页动画 */ = {
+			isa = PBXGroup;
+			children = (
+				E756414C29C0B47D001AD73F /* SwipeCardView.swift */,
+				E756414D29C0B47D001AD73F /* Message.swift */,
+			);
+			path = "折叠卡片翻页动画";
+			sourceTree = "<group>";
+		};
 		E79A2EB729AE38D100916D7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +307,16 @@
 		E7B0123B29A1B877008947AF /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E756414B29C0B453001AD73F /* 折叠卡片翻页动画 */,
+				E756414629C0B21A001AD73F /* 流程页动画 */,
+				E756413F29C0B016001AD73F /* 书本动画 */,
+				E756413C29BF6D3A001AD73F /* 液态动画 */,
+				E756413729BF5960001AD73F /* 可滑动弹框 */,
+				E756413629BD7489001AD73F /* Info.plist */,
+				E756413029BD617B001AD73F /* 灵动岛 */,
+				E756412D29BCA3F2001AD73F /* 3D轮播图 */,
+				E756412A29BC5151001AD73F /* 顶部搜索栏菜单动画 */,
+				E700E4BF29BC2B97005ABA07 /* 可折叠头部 */,
 				E79A2EDD29B2432600916D7E /* 滚动数字 */,
 				E79A2EDA29B0F34000916D7E /* 下拉选择框 */,
 				E79A2ED529B0E3AD00916D7E /* 3D分段选择器 */,
@@ -270,27 +388,11 @@
 		E7B0125929A20E25008947AF /* LikeAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				E7B0125D29A20E59008947AF /* Model */,
-				E7B0125A29A20E59008947AF /* View */,
-			);
-			path = LikeAnimation;
-			sourceTree = "<group>";
-		};
-		E7B0125A29A20E59008947AF /* View */ = {
-			isa = PBXGroup;
-			children = (
 				E7B0125B29A20E59008947AF /* YFHeartLike.swift */,
 				E7B0125C29A20E59008947AF /* LikeHome.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E7B0125D29A20E59008947AF /* Model */ = {
-			isa = PBXGroup;
-			children = (
 				E7B0125E29A20E59008947AF /* Post.swift */,
 			);
-			path = Model;
+			path = LikeAnimation;
 			sourceTree = "<group>";
 		};
 		E7FC331629A79F3C00EA19B7 /* ViewLoop */ = {
@@ -306,7 +408,6 @@
 			children = (
 				E7FC331A29A7A4A700EA19B7 /* TaskManager.swift */,
 				E7FC331C29A7A77B00EA19B7 /* Ubuntu.swift */,
-				E7FC331E29A7B68C00EA19B7 /* Task.swift */,
 				E7FC332029A7C29F00EA19B7 /* AddTaskView.swift */,
 			);
 			path = TaskManager;
@@ -416,6 +517,7 @@
 			files = (
 				E79A2EBE29AE38D100916D7E /* CryptoWidgetBundle.swift in Sources */,
 				E79A2EC229AE38D100916D7E /* CryptoWidget.swift in Sources */,
+				E756413329BD68C3001AD73F /* OrderAttributes.swift in Sources */,
 				E79A2EC029AE38D100916D7E /* CryptoWidgetLiveActivity.swift in Sources */,
 				E79A2EC729AE38D200916D7E /* CryptoWidget.intentdefinition in Sources */,
 			);
@@ -428,23 +530,37 @@
 				E7FC331829A79F5400EA19B7 /* ViewLoop.swift in Sources */,
 				E79A2EDC29B0F36800916D7E /* DropDownView.swift in Sources */,
 				E7B0125029A1DF85008947AF /* User.swift in Sources */,
+				E756414329C0B04E001AD73F /* BookHomeView.swift in Sources */,
 				E7B0126029A20E59008947AF /* LikeHome.swift in Sources */,
+				E756413E29BF6D8B001AD73F /* BallAnimationView.swift in Sources */,
+				E756414E29C0B47D001AD73F /* SwipeCardView.swift in Sources */,
+				E756413929BF59BE001AD73F /* MapBottomSheetView.swift in Sources */,
 				E79A2ED729B0E47B00916D7E /* TopTab.swift in Sources */,
+				E756414529C0B04E001AD73F /* IsometricView.swift in Sources */,
+				E756414429C0B04E001AD73F /* Book.swift in Sources */,
+				E700E4C129BC3154005ABA07 /* PayListView.swift in Sources */,
 				E7B0123F29A1B877008947AF /* ContentView.swift in Sources */,
 				E7FC331D29A7A77B00EA19B7 /* Ubuntu.swift in Sources */,
+				E756412F29BCA424001AD73F /* Carousel3D.swift in Sources */,
 				E7B0124E29A1C0D5008947AF /* TinderCard.swift in Sources */,
 				E7FC332129A7C29F00EA19B7 /* AddTaskView.swift in Sources */,
 				E7B0125429A1E2BD008947AF /* StackCardView.swift in Sources */,
+				E756414929C0B242001AD73F /* IntroView.swift in Sources */,
+				E756413B29BF59E2001AD73F /* AlbumModel.swift in Sources */,
+				E756413529BD71DB001AD73F /* WidgetView.swift in Sources */,
+				E756414A29C0B242001AD73F /* Intro.swift in Sources */,
+				E756413229BD68C3001AD73F /* OrderAttributes.swift in Sources */,
 				E7FC331B29A7A4A700EA19B7 /* TaskManager.swift in Sources */,
 				E79A2EDF29B2436C00916D7E /* RollingText.swift in Sources */,
 				E79A2ED429AF937100916D7E /* VerifyCode.swift in Sources */,
 				E7B0125F29A20E59008947AF /* YFHeartLike.swift in Sources */,
+				E756414F29C0B47D001AD73F /* Message.swift in Sources */,
 				E7B0125829A1FC66008947AF /* ClockView.swift in Sources */,
 				E79A2EC829AE38D200916D7E /* CryptoWidget.intentdefinition in Sources */,
 				E7B0125229A1E073008947AF /* HomeViewModel.swift in Sources */,
 				E7B0123D29A1B877008947AF /* SwiftUIDemoApp.swift in Sources */,
 				E79A2ED929B0E48F00916D7E /* DetailView.swift in Sources */,
-				E7FC331F29A7B68C00EA19B7 /* Task.swift in Sources */,
+				E756412C29BC517B001AD73F /* SearchNavView.swift in Sources */,
 				E7B0126129A20E59008947AF /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +588,7 @@
 				INFOPLIST_FILE = CryptoWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CryptoWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,6 +616,7 @@
 				INFOPLIST_FILE = CryptoWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CryptoWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -640,12 +758,14 @@
 				DEVELOPMENT_TEAM = KWDK5F6KU5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIDemo/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -674,12 +794,14 @@
 				DEVELOPMENT_TEAM = KWDK5F6KU5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIDemo/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

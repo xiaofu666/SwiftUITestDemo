@@ -8,17 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var value = 0
     var body: some View {
-        VStack(spacing: 25) {
-            RollingText(value: $value)
-            
-            Button("Change Value") {
-                value = .random(in: 0...110)
-            }
-        }
-        
-        
+        IntroView()
     }
 }
 

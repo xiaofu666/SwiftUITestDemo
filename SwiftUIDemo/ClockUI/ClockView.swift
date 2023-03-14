@@ -102,7 +102,7 @@ private struct Home : View {
                     .frame(width: 6, height: (width - 240) / 2)
                     .cornerRadius(3)
                     .offset(y : -(width - 240) / 4)
-                    .rotationEffect(.init(degrees: Double(current_time.hour) * 30 + Double( current_time.min) / 10))
+                    .rotationEffect(.init(degrees: Double(current_time.hour) * 30 + Double( current_time.min) * 5 / 10))
                 
                 Circle()
                     .fill(Color.primary)

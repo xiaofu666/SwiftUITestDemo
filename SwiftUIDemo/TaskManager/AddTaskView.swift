@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AddTaskView: View {
-    var onAdd: (Task) -> ()
+    var onAdd: (TaskModel) -> ()
     
     @Environment(\.dismiss) private var dismiss
     @State private var taskName: String = ""
@@ -160,7 +160,7 @@ struct AddTaskView: View {
                 .padding(.top, 5)
                 
                 Button {
-                    let task = Task(dateAdded: taskDate, taskName: taskName, taskDescription: taskDescription, taskCategory: taskCategory)
+                    let task = TaskModel(dateAdded: taskDate, taskName: taskName, taskDescription: taskDescription, taskCategory: taskCategory)
                     onAdd(task)
                     dismiss()
                 } label: {

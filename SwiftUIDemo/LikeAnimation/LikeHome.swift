@@ -65,7 +65,7 @@ struct LikeHome: View {
 
 struct LikeHome_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LikeHome()
     }
 }
 
